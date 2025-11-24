@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "073 TEGUSE - Kanaka Font"; /*font 이름*/
+  font-style: "normal"; /* font 스타일 정의 (기울임, 일반) */
+  font-weight: 400; /* font 굵기 정의 */
+  /* 브라우저&디바이스 환경에 따른 font 파일 위치 정의 */
+  src: url("/font/073\ TEGUSE\ -\ Kanaka\ Font_240904.ttf"); /* IE9 Compat Modes */
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: rgb(241 236 255);
+  font-size: 10pt;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  text-align: center;
+  height: 3rem;
+}
+.footer {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.menu {
+  margin: 1% 0%;
+}
+.menu-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-item {
+  margin: 0% 1%;
+}
+
+.novel {
+  height: 70%;
+}
+
+.content-box {
+  border-radius: 10px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4.5px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1rem;
+}
+
+.content {
+  margin: 2% 3%;
+  text-align: justify;
+}
+
+.align-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.align-center {
+  margin-top: 0.75rem;
+  display: flex;
+}
+
+.message-box {
+  background-color: white;
+  padding: 0.5rem;
+  font-size: 9pt;
+}
+
+.message-left {
+  text-align: justify;
+  max-width: 55%;
+  background-color: #e5e5ea;
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  width: fit-content;
+  align-items: flex-start;
+}
+.message-right {
+  text-align: justify;
+  max-width: 55%;
+  background-color: #248bf5;
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  width: fit-content;
+  align-items: flex-start;
+  color: white;
+}
+
+#input-text {
+  border: 0.25px solid #b0b0b6;
+  border-radius: 1rem;
+  width: 100%;
+  padding: 0.2rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#icon-plus {
+  background-color: #e5e5ea;
+  border-radius: 5rem;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+#icon-button {
+  background-color: #248bf5;
+  text-align: center;
+  color: white;
+  border-radius: 4rem;
+  width: 1.3rem;
+  margin-left: 0.5rem;
+}
+.explain-text {
+  color: gray;
+  font-size: 9pt;
+}
+#music {
+  width: 0;
+  height: 0;
+}
+
+#jp {
+  font-family: "073 TEGUSE - Kanaka Font";
+}
+
+#letter {
+  background-color: #fffcf56b;
+  padding: 0.5rem;
+}
+.seperate {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
