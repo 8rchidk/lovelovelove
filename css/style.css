@@ -30,6 +30,9 @@ body {
 
 .menu {
   margin: 1% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .menu-inner {
   display: flex;
@@ -37,7 +40,7 @@ body {
   justify-content: center;
 }
 .menu-item {
-  margin: 0% 1%;
+  margin: 0% 0.3rem;
 }
 
 .novel {
@@ -127,9 +130,10 @@ body {
   color: gray;
   font-size: 9pt;
 }
-#music {
-  width: 0;
-  height: 0;
+.music {
+  margin: 2% 0%;
+  justify-items: center;
+  display: grid;
 }
 
 #jp {
